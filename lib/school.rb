@@ -35,7 +35,7 @@ require"pry"
     def sort
       sorted_hash = {}
        @roster.each do |grade, name|
-       sorted_hash << name.sort
+       sorted_hash[grade] = name.sort
     end
     sorted_hash
   end
