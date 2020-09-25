@@ -18,9 +18,20 @@ class School
   end
   
   def add_student(student, grade)
-          binding.pry
-    @roster[grade] = []
-    @roster[grade] << student
+    if
+      @roster[grade] = []
+      @roster[grade] << student
+    else
+      @roster[grade] = []
+      @roster[grade] << student
+  end
+
+  if @roster[grade]
+[3] pry(#<School>)*   @roster[grade] << student
+[3] pry(#<School>)* else
+[3] pry(#<School>)*   @roster[grade] = []
+[3] pry(#<School>)*   @roster[grade] << student
+[3] pry(#<School>)* end
 
   end
 
