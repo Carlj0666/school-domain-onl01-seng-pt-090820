@@ -7,7 +7,9 @@ require"pry"
   # end
   
   class School
+    
   attr_accessor :name, :roster
+  
   def initialize(name)
     @name = name
     @roster = {}
@@ -28,6 +30,10 @@ end
 
   def grade(grade)
     @roster[grade]
+    end
+    
+    def sort(@roster[grade])
+      
     end
 
   end
