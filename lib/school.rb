@@ -33,7 +33,7 @@ require"pry"
     end
     
     def sort
-      
+      @roster.each do ||
       @roster.sort
     end
 
