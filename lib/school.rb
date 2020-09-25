@@ -25,8 +25,8 @@ require"pry"
     else 
        @roster[grade] = []
        @roster[grade] << student
+    end
   end
-end
 
   def grade(grade)
     @roster[grade]
