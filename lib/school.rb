@@ -37,6 +37,8 @@ require"pry"
        @roster.each do |grade, name|
        sorted_hash << name.sort
     end
+    sorted_hash
+  end
   
   end
 
