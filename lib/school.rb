@@ -1,6 +1,6 @@
 require"pry"
 
-class School
+#class School
   
   # def initialize(name)
   #   @roster = {}
