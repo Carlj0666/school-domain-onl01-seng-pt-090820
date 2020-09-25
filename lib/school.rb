@@ -28,15 +28,16 @@ require"pry"
     end
   end
 
-  def grade(grade)
-    @roster[grade]
+    def grade(grade)
+       @roster[grade]
     end
     
     def sort
-      @roster.each do ||
-      @roster.sort
+      sorted_hash = {}
+       @roster.each do |grade, name|
+       sorted_hash << name.sort
     end
-
+  
   end
 
  
