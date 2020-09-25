@@ -32,8 +32,8 @@ end
     @roster[grade]
     end
     
-    def sort(@roster[grade])
-      
+    def sort(students)
+      @roster[grade]
     end
 
   end
