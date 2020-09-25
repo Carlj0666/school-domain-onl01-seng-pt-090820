@@ -1,10 +1,18 @@
 require"pry"
 
-class School
+# class School
   
-  def initialize(roster)
+#   def initialize(roster)
+#     @roster = {}
+#   end
+  
+  class School
+  attr_accessor :name, :roster
+  def initialize(name)
+    @name = name
     @roster = {}
   end
+  
   
   def roster
     @roster
@@ -24,9 +32,4 @@ class School
   
 end
 
-class School
-  attr_accessor :name, :roster
-  def initialize(name)
-    @name = name
-    @roster = {}
-  end 
+ 
